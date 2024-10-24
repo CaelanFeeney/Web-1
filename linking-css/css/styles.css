@@ -1,0 +1,22 @@
+body{
+    background-color:#a96b76
+}
+
+h1{
+   color:#edbed4;
+}
+
+h2{
+    font-size: 20px;
+}
+section h2 {
+    color:#8dcfe8; 
+}
+
+.green-text{
+    color:#3f953f;
+}
+
+.pink-bg{
+    background-color: lightpink;
+}
