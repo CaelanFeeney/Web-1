@@ -1,63 +1,28 @@
-body{
-    background-color: #b5cdff
+body {
+    background-color: #ffe5e5;
+     }
+p{
+    color: #ff8e8e
 }
-.type1 {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  letter-spacing:4px;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: #ffc9c9;
+    color: #a83636
+    }
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #712121;
 }
-.type2 {
-  font-family: "IBM Plex Serif", serif;
-  font-weight: 600;
-  font-style: normal;
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:initial;
 }
-.type3 {
-  font-family: "Philosopher", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 1.5;
+.red-text { color: #a83636;
+    }
+a { color:#ff8e8e;
 }
-.type4 {
-  font-family: "Eagle Lake", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.type5 {
-  font-family: "Silkscreen", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 20px;
-}
-.type6 {
-  font-family: "Antonio", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  
-}
-.type7 {
-  font-family: "La Belle Aurore", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.type8 {
-  font-family: "Cutive Mono", monospace;
-  font-weight: 600;
-  font-style: normal;
-  text-align: center;
-}
-.type9  {
-  font-family: "Anaheim", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.type10 {
-  font-family: "Anaheim", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 
