@@ -1,0 +1,51 @@
+.background {
+    background-color: yellow;
+    border: 3px solid #FF0000;
+    width: 600px;
+}
+
+.dog1 {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    background-image: url(../assest/dog.jpg);
+    margin: 25px auto;
+    
+}
+
+.dog2 {
+    width: 450px;
+    height: 300px;
+    background-image: url(../assest/dog.jpg);
+    background-repeat: repeat;
+    background-size: 200px;
+    margin: 25px auto;
+}
+
+.dog3 {
+    background-color: lightblue;
+    width: 450px;
+    height: 300px;
+    background-image: url(../assest/dog.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 200px;
+    margin: 25px auto;
+}
+
+.dog4 {
+    width: 450px;
+    height: 300px;
+    object-fit: fill;
+    display: block;
+    margin: 25px auto;
+}
+
+.dog5 {
+    background-color: lightblue;
+    width: 450px;
+    height: 300px;
+    margin: 25px 75px 75px 75px;
+    object-fit: contain;
+    object-position: center bottom;
+}
