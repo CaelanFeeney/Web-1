@@ -1,51 +1,78 @@
-.background {
+.yellow-box {
     background-color: yellow;
-    border: 3px solid #FF0000;
-    width: 600px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
 }
 
-.dog1 {
-    width: 450px;
-    height: 300px;
-    object-fit: cover;
-    background-image: url(../assest/dog.jpg);
-    margin: 25px auto;
+.green-container {
+    background-color: green;
+    margin: 25px 50px 25px 50px;
+    padding-top: .5px;
+    height: 200px;
+}
+.aqua-box {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 25px;
+    float: left;
+}
+.lightbrown-box {
+    background-color: rgb(182, 147, 118);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    float: right;
+    margin: 25px 25px 25px 25px;
+}
+.blue-grey-box {
+    background-color: slategray;
+    height:375px;
+    margin: 25px 50px 25px 50px;
     
 }
 
-.dog2 {
-    width: 450px;
-    height: 300px;
-    background-image: url(../assest/dog.jpg);
-    background-repeat: repeat;
-    background-size: 200px;
-    margin: 25px auto;
+.white-box {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+    float: left;
 }
 
-.dog3 {
-    background-color: lightblue;
-    width: 450px;
-    height: 300px;
-    background-image: url(../assest/dog.jpg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 200px;
-    margin: 25px auto;
+.black-box {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+    float: right;
 }
 
-.dog4 {
-    width: 450px;
-    height: 300px;
-    object-fit: fill;
-    display: block;
-    margin: 25px auto;
+.orange-box {
+    background-color: orange;
+    height: 150px;
+    text-align: center; 
+    clear: both;
+    margin: 25px;
 }
 
-.dog5 {
-    background-color: lightblue;
-    width: 450px;
-    height: 300px;
-    margin: 25px 75px 75px 75px;
-    object-fit: contain;
-    object-position: center bottom;
+.brown-box {
+    background-color: saddlebrown;
+    color: white;
+    margin: 25px 50px 25px 50px;
+    padding: 25px;
+}
+
+.purple-box {
+    background-color: rebeccapurple;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0.5px;
 }
