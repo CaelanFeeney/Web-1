@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: white;
+}
+
+.left-items {
+    width: 100%;
+}
+
+.logo {
+    width: 127px;
+    height: 40px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+/* Hero Banner*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 548px;
+    padding: 0 16px;
+    background-image: url(../assets/hero-bg.jpg);
+    background-size: cover;
+    color: #ffff;
+}
+
+h1 {
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "Aoboshi One", serif;
+    font-size: 20px;
+}
+
+.button-1 {
+    padding: 8px 24px;
+    background-color: #ffc900;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    border: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-head {
+    font-family: "Aoboshi One", serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1108px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.left-text {
+    width: 100%;
+    display: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.view-all {
+    font-family: "Inter", serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.debug {
+    border: 2px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.male-photos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.male-photos-text {
+    font-family: "Inter", serif;
+    font-size: 17px;
+    font-weight: 100px;
+    max-width: 200px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.women-photos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.women-photos-text {
+    font-family: "Inter", serif;
+    font-size: 17px;
+    font-weight: 100px;
+    max-width: 200px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.prices {
+    font-family: "Aoboshi One", serif;
+    font-size: 10px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.fix {
+    margin-bottom: 20px;
+}
+#body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.black-friday {
+    width: 100%;
+    max-width: 1116px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/sale-bg.jpg);
+    font-family: "Aoboshi One", serif;
+    font-size: 24px;
+    font-weight: 100;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: left;
+    
+}
+
+.deals {
+    margin-left: 30px;
+    max-width: 210px;
+    
+}
+.hurry {
+    font-family: "Inter", serif;
+    font-size: 20px;
+    display: flex;
+    margin-left: 30px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.button-2 {
+    padding: 4px 25px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffc900;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    margin-left: 32px;
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffff;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 79px 3px;
+    gap: 8px 517px;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.copyright {
+    font-family: "Inter", serif;
+    font-size: 10px;
+}
+
+.footer-titles {
+    font-family: "Aoboshi One", serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info {
+    font-family: "Inter", serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    
+}
