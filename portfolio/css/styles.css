@@ -1,0 +1,252 @@
+.debug {
+    border: 2px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #d0e6fb;
+}
+
+nav {
+    width: 100%;
+    height: 64.09px;
+    background-color: white;
+    padding: 10px, 10px;
+    display: flex;
+}
+
+.inner-nav {
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.name {
+    font-size: 16px;
+    font-family: helvetica, serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5px;
+    width: fit-content;
+    margin-right: auto;
+}
+
+.nav-buttons {
+    display: flex;
+    font-size: 16px;
+    font-family: helvetica, serif;
+    font-weight: 600;
+    padding: 0 5px;
+    gap: 100px;
+    justify-content: center;
+}
+.about-me {
+    display: flex;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.title {
+    display: flex;
+    font-size: 40px;
+    font-family: helvetica, serif;
+    font-weight: 600;
+    margin: 0;
+}
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 93px;
+    width: 399px;
+    object-fit: contain;
+}
+
+.about-inner {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 540px;
+    margin-left: 57px;
+    text-align: justify;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    font-family: helvetica, serif;
+    font-size: 29px;
+}
+
+.portfolio {
+    width: auto;
+    height: fit-content;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-graphic {
+    height: fill;
+    width: 1221px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 52px;
+}
+
+.works-1 {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    margin-right: auto;
+}
+
+.work-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: helvetica, serif;
+    font-weight: 600;
+}
+
+.kendrick {
+    max-width: 349.37px;
+}
+
+.work-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: helvetica, serif;
+    font-weight: 600;
+}
+
+.elbows-up {
+    max-width: 349.37px;
+}
+
+.works-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 95px;
+    margin-right: auto;
+}
+
+.lino {
+    max-width: 349.37px;
+}
+
+.duck {
+    max-width: 405px;
+}
+.mobile {
+    display: none;
+}
+.desktop {
+    display: flex;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 399px;
+        object-fit: contain;
+    }
+
+    .about-me {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .portfolio {
+        width: auto;
+        height: fit-content;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .portfolio-graphic {
+        height: 195.28px;
+        max-width: 100%;
+        
+    }
+    .mobile {
+        display: flex;
+       
+    }
+    .desktop {
+        display: none;
+    }
+    .me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 44px;
+    width: 399px;
+    object-fit: contain;
+        
+}
+    .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 540px;
+    margin: 21px;
+    text-align: justify;
+}
+    .title {
+        justify-content: center;
+        
+}
+    .name {
+    width: fit-content;
+        margin-right: auto;
+    }
+    .works-1 {
+        max-width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    .nav-buttons {
+    display: flex;
+    font-size: 16px;
+    font-family: helvetica, serif;
+    font-weight: 600;
+    padding: 0 5px;
+    gap: 28px;
+    justify-content: center;}
+    
+
+}
